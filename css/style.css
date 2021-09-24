@@ -1,0 +1,2210 @@
+html{
+    background-color: rgba(253, 89, 48, 0.863);
+    max-width: 1903px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#home{
+    height: 896px;
+    width: 1903px;
+    background-color: rgb(255, 51, 0);
+}
+body {
+    display: block;
+    margin: 0px;
+}
+
+.top{
+    background-color: rgba(253, 89, 48, 0.863) ;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 9999;
+    justify-content: center;
+}
+
+label [for="but-menu"]{
+    display: none;
+}
+
+#estrutura{
+    height: 1080px;
+    width: 1903px;
+    background-color: rgb(63, 63, 63);
+}
+
+.top .button{
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: sans-serif;
+    color: honeydew;
+    margin-left: 35px;
+    transition-duration: 0.3s;
+}
+
+.top .button:hover{
+    color :rgb(63, 63, 63);
+}
+
+.top .button1{
+    margin-left: 65px;
+}
+
+#solucoes{
+    height: 936px;
+    width: 1903px;
+    background-color: honeydew;
+}
+
+#frota{
+    height: 1079px;
+    width: 1903px;
+    background-color: rgba(253, 89, 48, 0.863);
+}
+
+#contato{
+    height: 755px;
+    width: 1903px;
+    background-color: rgb(63, 63, 63);
+}
+.footer{
+    height: 330px;
+    background-color: rgb(34, 34, 34);
+}
+
+.top #logotop{
+    height: 108px;
+    width: 207px;
+    margin-left: 280px;
+    margin-right: 65px;
+}
+
+.top .instface #face{
+    margin-left: 280px;
+    margin-right: 8px;
+}
+
+.top .instface img{
+    height: 30px;
+    width: 30px;
+}
+
+/*HOME*/
+
+#home #caminhao{
+    height: 896px;
+    width: 1903px;
+    position: absolute;
+}
+
+#home #botoes button{
+    height: 65px;
+    width: 330px;
+    border-radius: 40px 0px;
+    position: absolute;
+    margin-top: 594px;
+    border: none;
+}
+
+ #home #botoes #botao{
+    margin-left: 280px;
+
+ }
+ #home #botoes #botao1 {
+     margin-left: 338px;
+ }
+ #home {
+     align-items: center;
+    
+ }
+ #home #botoes #botao1 button{
+    background-color: honeydew;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: rgb(255, 51, 0); 
+ }
+
+ #home #botoes #botao1 button:hover{
+     background-color: rgb(63, 63, 63);
+     transition-duration: 0.3s;
+ }
+
+ #home #botoes #botao button{
+    background-color: rgb(63, 63, 63);
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: rgb(255, 51, 0);
+ }
+
+ #home #botoes #botao button:hover{
+     background-color: honeydew;
+     transition-duration: 0.3s;
+ }
+
+#home #text1{
+    color: honeydew;
+    font-size: 38px;
+    font-family: sans-serif;
+    position: absolute;
+    margin-left: 280px;
+    margin-top: 167px;
+}
+
+/*ESTRUTURA*/
+
+
+#estrutura #galpao{
+    display: flex;
+    position: absolute;
+    margin-left: 0px;
+    margin-right: 0px;
+    
+}
+
+h3{
+    color: rgb(255, 51, 0);
+    font-size: 65px;
+    font-family: sans-serif;
+    position: absolute;
+    margin-left: 280px;
+    margin-top: 167px;
+}
+
+#estrutura #text2{
+    color: honeydew;
+    font-size: 28px;
+    font-weight: normal;
+    font-family: sans-serif;
+    position: absolute;
+    margin-left: 280px;
+    margin-top: 405px;
+}
+
+#estrutura #text3{
+    color: honeydew;
+    font-size: 28px;
+    font-weight: normal;
+    font-family: sans-serif;
+    position: absolute;
+    margin-left: 280px;
+    margin-top: 621px;
+}
+
+#estrutura #topicos{
+    color: honeydew;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: sans-serif;
+    position: absolute;
+    margin-left: 902px;
+    margin-top: 379px;
+}
+
+#estrutura li{
+    margin-top: 26px;
+    list-style: none;
+    align-items: center;
+}
+
+#estrutura li b{
+    font-style: italic;
+}
+/*Soluções Logisticas*/
+
+h4{
+    color: rgb(255, 51, 0);
+    font-size: 65px;
+    font-family: sans-serif;
+    position: absolute;
+    margin-left: 280px;
+    margin-top: 167px;
+}
+
+#solucoes #transporte #truck{
+    margin-top: 313px;
+    margin-left: 280px;
+    position: absolute;
+}
+
+#solucoes #transporte .text4{
+    font-size: 38px;
+    font-family: sans-serif;
+    position: absolute;
+    margin-top: 494px;
+    margin-left: 280px;
+    color: rgb(63, 63, 63);
+}
+
+#solucoes #transporte .text5{
+    font-size: 22px;
+    font-weight: normal;
+    font-family: sans-serif;
+    position: absolute;
+    margin-top: 631px;
+    margin-left: 280px;
+    color: rgb(63, 63, 63);
+}
+
+#solucoes #transporte button{
+    margin-top: 806px;
+    margin-left: 280px;
+    position: absolute;
+}
+
+#solucoes button{
+    color: honeydew;
+    background-color: rgba(253, 89, 48, 0.863);
+    width: 171px;
+    height: 34px;
+    border-radius: 20px 0px;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+}
+
+#solucoes button:hover{
+    background-color: rgb(63, 63, 63);
+    transition-duration: 0.3s;
+}
+
+#solucoes #linha{
+    margin-left: 870px;
+    margin-top: 451px;
+    position: absolute;
+}
+
+#solucoes #armazenagem #carrinho{
+    margin-top: 313px;
+    margin-left: 989px;
+    position: absolute;
+}
+
+#solucoes #armazenagem .text4{
+    font-size: 38px;
+    font-family: sans-serif;
+    position: absolute;
+    margin-top: 494px;
+    margin-left: 989px;
+    color: rgb(63, 63, 63);
+}
+
+#solucoes #armazenagem .text5{
+    font-size: 22px;
+    font-weight: normal;
+    font-family: sans-serif;
+    position: absolute;
+    margin-top: 631px;
+    margin-left: 989px;
+    color: rgb(63, 63, 63);
+}
+
+#solucoes #armazenagem button{
+    margin-top: 806px;
+    margin-left: 989px;
+    position: absolute;
+}
+
+/*NOSSA FROTA*/
+
+h5{
+    color: honeydew;
+    font-size: 65px;
+    font-family: sans-serif;
+    position: absolute;
+    margin-left: 280px;
+    margin-top: 84px;
+}
+#frota img{
+    position: absolute;
+    margin-top: 239px;
+    margin-left: 174px;
+}
+
+#frota #text6{
+    font-size: 22px;
+    font-weight: normal;
+    font-family: sans-serif;
+    position: absolute;
+    margin-top: 206px;
+    margin-left: 280px;
+    color: honeydew;
+}
+
+/*CONTATO*/
+
+h6{
+    color: rgb(255, 51, 0);
+    font-size: 65px;
+    font-family: sans-serif;
+    position: absolute;
+    margin-left: 280px;
+    margin-top: 106px;
+}
+#contato #faceinsta{
+    margin-top: 292px;
+    position: absolute;
+} 
+
+#contato #faceinsta #face{
+    margin-left: 373px;
+}
+
+#contato #faceinsta #insta{
+    margin-left: 12px;
+}
+  
+#contato #fone, #whats, #loca, p{
+    position: absolute;
+}
+#contato #fone{
+    margin-top: 390px;
+    margin-left: 280px;
+}
+
+#contato #fone1{
+    margin-top: 400px;
+    margin-left: 372px;
+    font-size: 22px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: honeydew;
+}
+
+#contato #whats{
+    margin-left: 280px;
+    margin-top: 465px;
+}
+
+#contato #whats1{
+    margin-top: 475px;
+    margin-left: 372px;
+    font-size: 22px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: honeydew;
+}
+#contato #loca{
+    margin-top: 537px;
+    margin-left: 280px;
+}
+
+#contato #loca1{
+    margin-top: 547px;
+    margin-left: 372px;
+    font-size: 22px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: honeydew;
+}
+
+#contato #formulario{
+    display: block;
+    align-items: center;
+    margin-left: 1158px;
+    margin-top: 106px;
+    position: absolute;
+}
+
+#contato .form input{
+    width: 481px;
+    height: 50px;
+    border-radius: 20px 0px;
+    border: none;
+    background-color: honeydew;
+    margin-top: 5px;
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: 15px;
+    padding-left: 12px;
+}
+
+#contato #textarea textarea{
+    width: 471px;
+    height: 264px;
+    border-radius: 20px 0px;
+    border: none;
+    background-color: honeydew;
+    margin-top: 5px;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    padding: 12px;
+}
+
+#contato #formulario button{
+    border: none;
+    border-radius: 20px 0px;
+    height: 48px;
+    width: 123px;
+    font-size: 22px;
+    font-family: sans-serif;
+    color: honeydew;
+    background-color: rgba(253, 89, 48, 0.863);
+    margin-left: 178px;
+}
+
+#contato #formulario button:hover{
+    background-color: rgb(34, 34, 34);
+    transition-duration: 0.3s;
+}
+
+/*FOOTER*/
+
+.footer img{
+    margin-top: 109px;
+    margin-left: 700px;
+    position: absolute;
+}
+
+.footer a{
+    text-decoration: none; 
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: bold;  
+    color: honeydew;
+}
+
+.footer #menuf{
+    width: 189px;
+    height: 159px;
+    margin-top: 109px;
+    margin-left: 1014px;
+    position: absolute;
+}
+/*RESPONSIVIDADE*/
+
+/*header*/
+@media only screen and (max-width: 1680px) {
+
+    #home{
+        width: 100%;
+    }
+
+    #estrutura{
+        width: 100%;
+    }
+
+    #solucoes{
+        width: 100%;
+    }
+    
+    #frota{
+        width: 100%;
+    }
+    
+    #contato{
+        width: 100%;
+    }
+    /*TOP*/
+    .top .button{
+        font-size: 11px;
+        font-weight: bold;
+        text-decoration: none;
+        font-family: sans-serif;
+        color: honeydew;
+        margin-left: 25px;
+        transition-duration: 0.3s;
+    }
+    
+    .top .button:hover{
+        color :rgb(63, 63, 63);
+    }
+    
+    .top .button1{
+        margin-left: 55px;
+    }
+
+    .top #logotop{
+        height: 98px;
+        width: 197px;
+        margin-left: 150px;
+        margin-right: 65px;
+    }
+    
+    .top .instface #face{
+        margin-left: 220px;
+        margin-right: 8px;
+    }
+    
+    .top .instface img{
+        height: 30px;
+        width: 30px;
+    }
+
+    /*HOME*/
+
+    #home #caminhao{
+        height: 896px;
+        width: 100%;
+        position: absolute;
+    }
+    
+    #home #botoes button{
+        height: 55px;
+        width: 280px;
+        border-radius: 30px 0px;
+        position: absolute;
+        margin-top: 594px;
+        border: none;
+    }
+    
+     #home #botoes #botao{
+        margin-left: 220px;
+    
+     }
+     #home #botoes #botao1 {
+         margin-left: 290px;
+     }
+     #home {
+         align-items: center;
+        
+     }
+     #home #botoes #botao1 button{
+        background-color: honeydew;
+        font-size: 15px;
+        font-family: sans-serif;
+        font-weight: bold;
+        color: rgb(255, 51, 0); 
+     }
+    
+     #home #botoes #botao1 button:hover{
+         background-color: rgb(63, 63, 63);
+         transition-duration: 0.3s;
+     }
+    
+     #home #botoes #botao button{
+        background-color: rgb(63, 63, 63);
+        font-size: 15px;
+        font-family: sans-serif;
+        font-weight: bold;
+        color: rgb(255, 51, 0);
+     }
+    
+     #home #botoes #botao button:hover{
+         background-color: honeydew;
+         transition-duration: 0.3s;
+     }
+    
+    #home #text1{
+        color: honeydew;
+        font-size: 30px;
+        font-family: sans-serif;
+        position: absolute;
+        margin-left: 220px;
+        margin-top: 147px;
+    }
+
+    /*ESTRUTURA*/
+    
+#estrutura #galpao{
+    position: absolute;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%;
+    height: 1080px;
+}
+
+h3{
+    color: rgb(255, 51, 0);
+    font-size: 55px;
+    font-family: sans-serif;
+    position: absolute;
+    margin-left: 220px;
+    margin-top: 167px;
+}
+
+#estrutura #text2{
+    color: honeydew;
+    font-size: 23px;
+    font-weight: normal;
+    font-family: sans-serif;
+    position: absolute;
+    margin-left: 220px;
+    margin-top: 405px;
+}
+
+#estrutura #text3{
+    color: honeydew;
+    font-size: 23px;
+    font-weight: normal;
+    font-family: sans-serif;
+    position: absolute;
+    margin-left: 220px;
+    margin-top: 621px;
+}
+
+#estrutura #topicos{
+    color: honeydew;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: sans-serif;
+    position: absolute;
+    margin-left: 902px;
+    margin-top: 379px;
+}
+
+#estrutura li{
+    margin-top: 26px;
+    list-style: none;
+    align-items: center;
+}
+
+#estrutura li b{
+    font-style: italic;
+}
+/*Soluções Logisticas*/
+
+h4{
+    color: rgb(255, 51, 0);
+    font-size: 55px;
+    font-family: sans-serif;
+    position: absolute;
+    margin-left: 220px;
+    margin-top: 167px;
+}
+
+#solucoes #transporte #truck{
+    margin-top: 313px;
+    margin-left: 220px;
+    position: absolute;
+}
+
+#solucoes #transporte .text4{
+    font-size: 35px;
+    font-family: sans-serif;
+    position: absolute;
+    margin-top: 494px;
+    margin-left: 220px;
+    color: rgb(63, 63, 63);
+}
+
+#solucoes #transporte .text5{
+    font-size: 20px;
+    font-weight: normal;
+    font-family: sans-serif;
+    position: absolute;
+    margin-top: 631px;
+    margin-left: 220px;
+    color: rgb(63, 63, 63);
+}
+
+#solucoes #transporte button{
+    margin-top: 806px;
+    margin-left: 220px;
+    position: absolute;
+}
+
+#solucoes button{
+    color: honeydew;
+    background-color: rgba(253, 89, 48, 0.863);
+    width: 171px;
+    height: 34px;
+    border-radius: 20px 0px;
+    font-size: 12px;
+    font-weight: bold;
+    border: none;
+}
+
+#solucoes button:hover{
+    background-color: rgb(63, 63, 63);
+    transition-duration: 0.3s;
+}
+
+#solucoes #linha{
+    margin-left: 810px;
+    margin-top: 451px;
+    position: absolute;
+}
+
+#solucoes #armazenagem #carrinho{
+    margin-top: 313px;
+    margin-left: 929px;
+    position: absolute;
+}
+
+#solucoes #armazenagem .text4{
+    font-size: 35px;
+    font-family: sans-serif;
+    position: absolute;
+    margin-top: 494px;
+    margin-left: 929px;
+    color: rgb(63, 63, 63);
+}
+
+#solucoes #armazenagem .text5{
+    font-size: 20px;
+    font-weight: normal;
+    font-family: sans-serif;
+    position: absolute;
+    margin-top: 631px;
+    margin-left: 929px;
+    color: rgb(63, 63, 63);
+}
+
+#solucoes #armazenagem button{
+    margin-top: 806px;
+    margin-left: 929px;
+    position: absolute;
+}
+
+/*NOSSA FROTA*/
+
+h5{
+    color: honeydew;
+    font-size: 55px;
+    font-family: sans-serif;
+    position: absolute;
+    margin-left: 220px;
+    margin-top: 84px;
+}
+#frota img{
+    width: 100%;
+    height: 707px;
+    position: absolute;
+    margin-top: 239px;
+    margin-left: 0px;
+}
+
+#frota #text6{
+    font-size: 20px;
+    font-weight: normal;
+    font-family: sans-serif;
+    position: absolute;
+    margin-top: 206px;
+    margin-left: 220px;
+    color: honeydew;
+}
+/*CONTATO*/
+
+h6{
+    color: rgb(255, 51, 0);
+    font-size: 55px;
+    font-family: sans-serif;
+    position: absolute;
+    margin-left: 220px;
+    margin-top: 106px;
+}
+#contato #faceinsta{
+    margin-top: 292px;
+    position: absolute;
+} 
+
+#contato #faceinsta #face{
+    margin-left: 353px;
+}
+
+#contato #faceinsta #insta{
+    margin-left: 8px;
+}
+  
+#contato #fone, #whats, #loca, p{
+    position: absolute;
+}
+#contato #fone{
+    margin-top: 390px;
+    margin-left: 220px;
+}
+
+#contato #fone1{
+    margin-top: 400px;
+    margin-left: 312px;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: honeydew;
+}
+
+#contato #whats{
+    margin-left: 220px;
+    margin-top: 465px;
+}
+
+#contato #whats1{
+    margin-top: 475px;
+    margin-left: 312px;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: honeydew;
+}
+#contato #loca{
+    margin-top: 537px;
+    margin-left: 220px;
+}
+
+#contato #loca1{
+    margin-top: 547px;
+    margin-left: 312px;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: honeydew;
+}
+
+#contato #formulario{
+    display: block;
+    align-items: center;
+    margin-left: 935px;
+    margin-top: 145px;
+    position: absolute;
+}
+
+#contato .form input{
+    width: 420px;
+    height: 40px;
+    border-radius: 15px 0px;
+    border: none;
+    background-color: honeydew;
+    margin-top: 3px;
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: 12px;
+    padding-left: 9px;
+}
+
+#contato #textarea textarea{
+    width: 413px;
+    height: 220px;
+    border-radius: 15px 0px;
+    border: none;
+    background-color: honeydew;
+    margin-top: 3px;
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    padding: 9px;
+}
+
+#contato #formulario button{
+    border: none;
+    border-radius: 20px 0px;
+    height: 40px;
+    width: 110px;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: honeydew;
+    background-color: rgba(253, 89, 48, 0.863);
+    margin-left: 168px;
+}
+
+#contato #formulario button:hover{
+    background-color: rgb(34, 34, 34);
+    transition-duration: 0.3s;
+}
+/*FOOTER*/
+.footer img{
+    margin-top: 109px;
+    margin-left: 477px;
+    position: absolute;
+}
+
+.footer a{
+    text-decoration: none; 
+    font-size: 11px;
+    font-family: sans-serif;
+    font-weight: bold;  
+    color: honeydew;
+}
+
+.footer #menuf{
+    width: 180px;
+    height: 150px;
+    margin-top: 109px;
+    margin-left: 781px;
+    position: absolute;
+}
+
+  }
+
+  
+@media only screen and (max-width: 1540px) {
+    /*TOP*/
+    .top .button{
+        font-size: 11px;
+        font-weight: bold;
+        text-decoration: none;
+        font-family: sans-serif;
+        color: honeydew;
+        margin-left: 25px;
+        transition-duration: 0.3s;
+    }
+    
+    .top .button:hover{
+        color :rgb(63, 63, 63);
+    }
+    
+    .top .button1{
+        margin-left: 55px;
+    }
+
+    .top #logotop{
+        height: 98px;
+        width: 197px;
+        margin-left: 150px;
+        margin-right: 65px;
+    }
+    
+    .top .instface #face{
+        margin-left: 220px;
+        margin-right: 8px;
+    }
+    
+    .top .instface img{
+        height: 30px;
+        width: 30px;
+    }
+
+    /*HOME*/
+
+    
+    #home #botoes button{
+        height: 55px;
+        width: 280px;
+        border-radius: 30px 0px;
+        position: absolute;
+        margin-top: 594px;
+        border: none;
+    }
+    
+     #home #botoes #botao{
+        margin-left: 220px;
+    
+     }
+     #home #botoes #botao1 {
+         margin-left: 290px;
+     }
+     #home {
+         align-items: center;
+        
+     }
+     #home #botoes #botao1 button{
+        background-color: honeydew;
+        font-size: 15px;
+        font-family: sans-serif;
+        font-weight: bold;
+        color: rgb(255, 51, 0); 
+     }
+    
+     #home #botoes #botao1 button:hover{
+         background-color: rgb(63, 63, 63);
+         transition-duration: 0.3s;
+     }
+    
+     #home #botoes #botao button{
+        background-color: rgb(63, 63, 63);
+        font-size: 15px;
+        font-family: sans-serif;
+        font-weight: bold;
+        color: rgb(255, 51, 0);
+     }
+    
+     #home #botoes #botao button:hover{
+         background-color: honeydew;
+         transition-duration: 0.3s;
+     }
+    
+    #home #text1{
+        color: honeydew;
+        font-size: 30px;
+        font-family: sans-serif;
+        position: absolute;
+        margin-left: 220px;
+        margin-top: 147px;
+    }
+
+    /*ESTRUTURA*/
+    
+
+h3{
+    color: rgb(255, 51, 0);
+    font-size: 55px;
+    font-family: sans-serif;
+    position: absolute;
+    margin-left: 220px;
+    margin-top: 167px;
+}
+
+#estrutura #text2{
+    color: honeydew;
+    font-size: 23px;
+    font-weight: normal;
+    font-family: sans-serif;
+    position: absolute;
+    margin-left: 220px;
+    margin-top: 405px;
+}
+
+#estrutura #text3{
+    color: honeydew;
+    font-size: 23px;
+    font-weight: normal;
+    font-family: sans-serif;
+    position: absolute;
+    margin-left: 220px;
+    margin-top: 621px;
+}
+
+#estrutura #topicos{
+    color: honeydew;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: sans-serif;
+    position: absolute;
+    margin-left: 800px;
+    margin-top: 379px;
+}
+
+#estrutura li{
+    margin-top: 26px;
+    list-style: none;
+    align-items: center;
+}
+
+#estrutura li b{
+    font-style: italic;
+}
+/*Soluções Logisticas*/
+
+h4{
+    color: rgb(255, 51, 0);
+    font-size: 55px;
+    font-family: sans-serif;
+    position: absolute;
+    margin-left: 220px;
+    margin-top: 167px;
+}
+
+#solucoes #transporte #truck{
+    margin-top: 313px;
+    margin-left: 220px;
+    position: absolute;
+}
+
+#solucoes #transporte .text4{
+    font-size: 35px;
+    font-family: sans-serif;
+    position: absolute;
+    margin-top: 494px;
+    margin-left: 220px;
+    color: rgb(63, 63, 63);
+}
+
+#solucoes #transporte .text5{
+    font-size: 20px;
+    font-weight: normal;
+    font-family: sans-serif;
+    position: absolute;
+    margin-top: 631px;
+    margin-left: 220px;
+    color: rgb(63, 63, 63);
+}
+
+#solucoes #transporte button{
+    margin-top: 806px;
+    margin-left: 220px;
+    position: absolute;
+}
+
+#solucoes button{
+    color: honeydew;
+    background-color: rgba(253, 89, 48, 0.863);
+    width: 171px;
+    height: 34px;
+    border-radius: 20px 0px;
+    font-size: 12px;
+    font-weight: bold;
+    border: none;
+}
+
+#solucoes button:hover{
+    background-color: rgb(63, 63, 63);
+    transition-duration: 0.3s;
+}
+
+#solucoes #linha{
+    margin-left: 810px;
+    margin-top: 451px;
+    position: absolute;
+}
+
+#solucoes #armazenagem #carrinho{
+    margin-top: 313px;
+    margin-left: 929px;
+    position: absolute;
+}
+
+#solucoes #armazenagem .text4{
+    font-size: 35px;
+    font-family: sans-serif;
+    position: absolute;
+    margin-top: 494px;
+    margin-left: 929px;
+    color: rgb(63, 63, 63);
+}
+
+#solucoes #armazenagem .text5{
+    font-size: 20px;
+    font-weight: normal;
+    font-family: sans-serif;
+    position: absolute;
+    margin-top: 631px;
+    margin-left: 929px;
+    color: rgb(63, 63, 63);
+}
+
+#solucoes #armazenagem button{
+    margin-top: 806px;
+    margin-left: 929px;
+    position: absolute;
+}
+
+/*NOSSA FROTA*/
+
+h5{
+    color: honeydew;
+    font-size: 55px;
+    font-family: sans-serif;
+    position: absolute;
+    margin-left: 220px;
+    margin-top: 84px;
+}
+#frota img{
+    width: 100%;
+    height: 707px;
+    position: absolute;
+    margin-top: 239px;
+    margin-left: 0px;
+}
+
+#frota #text6{
+    font-size: 20px;
+    font-weight: normal;
+    font-family: sans-serif;
+    position: absolute;
+    margin-top: 206px;
+    margin-left: 220px;
+    color: honeydew;
+}
+/*CONTATO*/
+
+h6{
+    color: rgb(255, 51, 0);
+    font-size: 55px;
+    font-family: sans-serif;
+    position: absolute;
+    margin-left: 220px;
+    margin-top: 106px;
+}
+#contato #faceinsta{
+    margin-top: 292px;
+    position: absolute;
+} 
+
+#contato #faceinsta #face{
+    margin-left: 353px;
+}
+
+#contato #faceinsta #insta{
+    margin-left: 8px;
+}
+  
+#contato #fone, #whats, #loca, p{
+    position: absolute;
+}
+#contato #fone{
+    margin-top: 390px;
+    margin-left: 220px;
+}
+
+#contato #fone1{
+    margin-top: 400px;
+    margin-left: 312px;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: honeydew;
+}
+
+#contato #whats{
+    margin-left: 220px;
+    margin-top: 465px;
+}
+
+#contato #whats1{
+    margin-top: 475px;
+    margin-left: 312px;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: honeydew;
+}
+#contato #loca{
+    margin-top: 537px;
+    margin-left: 220px;
+}
+
+#contato #loca1{
+    margin-top: 547px;
+    margin-left: 312px;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: honeydew;
+}
+
+#contato #formulario{
+    display: block;
+    align-items: center;
+    margin-left: 900px;
+    margin-top: 145px;
+    position: absolute;
+}
+
+#contato .form input{
+    width: 410px;
+    height: 35px;
+    border-radius: 15px 0px;
+    border: none;
+    background-color: honeydew;
+    margin-top: 3px;
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: 12px;
+    padding-left: 9px;
+}
+
+#contato #textarea textarea{
+    width: 403px;
+    height: 210px;
+    border-radius: 15px 0px;
+    border: none;
+    background-color: honeydew;
+    margin-top: 3px;
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    padding: 9px;
+}
+
+#contato #formulario button{
+    border: none;
+    border-radius: 20px 0px;
+    height: 40px;
+    width: 110px;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: honeydew;
+    background-color: rgba(253, 89, 48, 0.863);
+    margin-left: 168px;
+}
+
+#contato #formulario button:hover{
+    background-color: rgb(34, 34, 34);
+    transition-duration: 0.3s;
+}
+/*FOOTER*/
+.footer img{
+    margin-top: 109px;
+    margin-left: 477px;
+    position: absolute;
+}
+
+.footer a{
+    text-decoration: none; 
+    font-size: 11px;
+    font-family: sans-serif;
+    font-weight: bold;  
+    color: honeydew;
+}
+
+.footer #menuf{
+    width: 180px;
+    height: 150px;
+    margin-top: 109px;
+    margin-left: 781px;
+    position: absolute;
+}
+
+  }
+
+  @media only screen and (max-width: 1360px) {
+    /*TOP*/
+    .top .button{
+        font-size: 11px;
+        font-weight: bold;
+        text-decoration: none;
+        font-family: sans-serif;
+        color: honeydew;
+        margin-left: 25px;
+        transition-duration: 0.3s;
+    }
+    
+    .top .button:hover{
+        color :rgb(63, 63, 63);
+    }
+    
+    .top .button1{
+        margin-left: 55px;
+    }
+
+    .top #logotop{
+        height: 60px;
+        width: 133px;
+        margin-left: 40px;
+        margin-right: 65px;
+    }
+    
+    .top .instface #face{
+        margin-left: 200px;
+        margin-right: 8px;
+    }
+    
+    .top .instface img{
+        height: 30px;
+        width: 30px;
+    }
+
+    /*HOME*/
+
+    
+    #home #botoes button{
+        height: 55px;
+        width: 280px;
+        border-radius: 30px 0px;
+        position: absolute;
+        margin-top: 594px;
+        border: none;
+    }
+    
+     #home #botoes #botao{
+        margin-left: 110px;
+    
+     }
+     #home #botoes #botao1 {
+         margin-left: 290px;
+     }
+     #home {
+         align-items: center;
+        
+     }
+     #home #botoes #botao1 button{
+        background-color: honeydew;
+        font-size: 15px;
+        font-family: sans-serif;
+        font-weight: bold;
+        color: rgb(255, 51, 0); 
+     }
+    
+     #home #botoes #botao1 button:hover{
+         background-color: rgb(63, 63, 63);
+         transition-duration: 0.3s;
+     }
+    
+     #home #botoes #botao button{
+        background-color: rgb(63, 63, 63);
+        font-size: 15px;
+        font-family: sans-serif;
+        font-weight: bold;
+        color: rgb(255, 51, 0);
+     }
+    
+     #home #botoes #botao button:hover{
+         background-color: honeydew;
+         transition-duration: 0.3s;
+     }
+    
+    #home #text1{
+        color: honeydew;
+        font-size: 30px;
+        font-family: sans-serif;
+        position: absolute;
+        margin-left: 110px;
+        margin-top: 147px;
+    }
+
+    /*ESTRUTURA*/
+    
+
+h3{
+    color: rgb(255, 51, 0);
+    font-size: 55px;
+    font-family: sans-serif;
+    position: absolute;
+    margin-left: 110px;
+    margin-top: 167px;
+}
+
+#estrutura #text2{
+    color: honeydew;
+    font-size: 23px;
+    font-weight: normal;
+    font-family: sans-serif;
+    position: absolute;
+    margin-left: 110px;
+    margin-top: 405px;
+}
+
+#estrutura #text3{
+    color: honeydew;
+    font-size: 23px;
+    font-weight: normal;
+    font-family: sans-serif;
+    position: absolute;
+    margin-left: 110px;
+    margin-top: 621px;
+}
+
+#estrutura #topicos{
+    color: honeydew;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: sans-serif;
+    position: absolute;
+    margin-left: 630px;
+    margin-top: 379px;
+}
+
+#estrutura li{
+    margin-top: 26px;
+    list-style: none;
+    align-items: center;
+}
+
+#estrutura li b{
+    font-style: italic;
+}
+/*Soluções Logisticas*/
+
+h4{
+    color: rgb(255, 51, 0);
+    font-size: 55px;
+    font-family: sans-serif;
+    position: absolute;
+    margin-left: 110px;
+    margin-top: 167px;
+}
+
+#solucoes #transporte #truck{
+    margin-top: 313px;
+    margin-left: 110px;
+    position: absolute;
+}
+
+#solucoes #transporte .text4{
+    font-size: 35px;
+    font-family: sans-serif;
+    position: absolute;
+    margin-top: 494px;
+    margin-left: 110px;
+    color: rgb(63, 63, 63);
+}
+
+#solucoes #transporte .text5{
+    font-size: 20px;
+    font-weight: normal;
+    font-family: sans-serif;
+    position: absolute;
+    margin-top: 631px;
+    margin-left: 110px;
+    color: rgb(63, 63, 63);
+}
+
+#solucoes #transporte button{
+    margin-top: 806px;
+    margin-left: 110px;
+    position: absolute;
+}
+
+#solucoes button{
+    color: honeydew;
+    background-color: rgba(253, 89, 48, 0.863);
+    width: 171px;
+    height: 34px;
+    border-radius: 20px 0px;
+    font-size: 12px;
+    font-weight: bold;
+    border: none;
+}
+
+#solucoes button:hover{
+    background-color: rgb(63, 63, 63);
+    transition-duration: 0.3s;
+}
+
+#solucoes #linha{
+    margin-left: 700px;
+    margin-top: 451px;
+    position: absolute;
+}
+
+#solucoes #armazenagem #carrinho{
+    margin-top: 313px;
+    margin-left: 819px;
+    position: absolute;
+}
+
+#solucoes #armazenagem .text4{
+    font-size: 35px;
+    font-family: sans-serif;
+    position: absolute;
+    margin-top: 494px;
+    margin-left: 819px;
+    color: rgb(63, 63, 63);
+}
+
+#solucoes #armazenagem .text5{
+    font-size: 20px;
+    font-weight: normal;
+    font-family: sans-serif;
+    position: absolute;
+    margin-top: 631px;
+    margin-left: 819px;
+    color: rgb(63, 63, 63);
+}
+
+#solucoes #armazenagem button{
+    margin-top: 806px;
+    margin-left: 819px;
+    position: absolute;
+}
+
+/*NOSSA FROTA*/
+
+h5{
+    color: honeydew;
+    font-size: 55px;
+    font-family: sans-serif;
+    position: absolute;
+    margin-left: 110px;
+    margin-top: 84px;
+}
+#frota img{
+    width: 100%;
+    height: 707px;
+    position: absolute;
+    margin-top: 239px;
+    margin-left: 0px;
+}
+
+#frota #text6{
+    font-size: 20px;
+    font-weight: normal;
+    font-family: sans-serif;
+    position: absolute;
+    margin-top: 206px;
+    margin-left: 110px;
+    color: honeydew;
+}
+/*CONTATO*/
+
+h6{
+    color: rgb(255, 51, 0);
+    font-size: 55px;
+    font-family: sans-serif;
+    position: absolute;
+    margin-left: 110px;
+    margin-top: 106px;
+}
+#contato #faceinsta{
+    margin-top: 292px;
+    position: absolute;
+} 
+
+#contato #faceinsta #face{
+    margin-left: 202px;
+}
+
+#contato #faceinsta #insta{
+    margin-left: 8px;
+}
+  
+#contato #fone, #whats, #loca, p{
+    position: absolute;
+}
+#contato #fone{
+    margin-top: 390px;
+    margin-left: 110px;
+}
+
+#contato #fone1{
+    margin-top: 400px;
+    margin-left: 202px;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: honeydew;
+}
+
+#contato #whats{
+    margin-left: 110px;
+    margin-top: 465px;
+}
+
+#contato #whats1{
+    margin-top: 475px;
+    margin-left: 202px;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: honeydew;
+}
+#contato #loca{
+    margin-top: 537px;
+    margin-left: 110px;
+}
+
+#contato #loca1{
+    margin-top: 547px;
+    margin-left: 202px;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: honeydew;
+}
+
+#contato #formulario{
+    display: block;
+    align-items: center;
+    margin-left: 740px;
+    margin-top: 145px;
+    position: absolute;
+}
+
+#contato .form input{
+    width: 410px;
+    height: 35px;
+    border-radius: 15px 0px;
+    border: none;
+    background-color: honeydew;
+    margin-top: 3px;
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: 12px;
+    padding-left: 9px;
+}
+
+#contato #textarea textarea{
+    width: 403px;
+    height: 210px;
+    border-radius: 15px 0px;
+    border: none;
+    background-color: honeydew;
+    margin-top: 3px;
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    padding: 9px;
+}
+
+#contato #formulario button{
+    border: none;
+    border-radius: 20px 0px;
+    height: 40px;
+    width: 110px;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: honeydew;
+    background-color: rgba(253, 89, 48, 0.863);
+    margin-left: 168px;
+}
+
+#contato #formulario button:hover{
+    background-color: rgb(34, 34, 34);
+    transition-duration: 0.3s;
+}
+/*FOOTER*/
+.footer img{
+    margin-top: 109px;
+    margin-left: 407px;
+    position: absolute;
+}
+
+.footer a{
+    text-decoration: none; 
+    font-size: 11px;
+    font-family: sans-serif;
+    font-weight: bold;  
+    color: honeydew;
+}
+
+.footer #menuf{
+    width: 180px;
+    height: 150px;
+    margin-top: 109px;
+    margin-left: 701px;
+    position: absolute;
+}
+
+  }@media only screen and (max-width: 1200px) {
+    #home{
+        height: 753px;
+    }
+
+    #estrutura{
+        height: 930px;
+    }
+
+    #solucoes{
+        height: 756px;
+    }
+    
+    #frota{
+        height: 929px;
+
+    }
+    
+    #contato{
+        height: 755px;
+
+    }
+
+    .footer{
+        height: 203px;
+    }
+    /*TOP*/
+
+    .top .button{
+        font-size: 9px;
+        font-weight: bold;
+        text-decoration: none;
+        font-family: sans-serif;
+        color: honeydew;
+        margin-left: 25px;
+        transition-duration: 0.3s;
+    }
+    
+    .top .button:hover{
+        color :rgb(63, 63, 63);
+    }
+    
+    .top .button1{
+        margin-left: 45px;
+    }
+
+    .top #logotop{
+        height: 60px;
+        width: 133px;
+        margin-left: 40px;
+        margin-right: 65px;
+    }
+    
+    .top .instface #face{
+        margin-left: 180px;
+        margin-right: 8px;
+    }
+    
+    .top .instface img{
+        height: 20px;
+        width: 20px;
+    }
+
+    /*HOME*/
+    #home #caminhao{
+        height: 753px;
+        width: 100%;
+        position: absolute;
+
+    }
+    #home #botoes button{
+        height: 45px;
+        width: 220px;
+        border-radius: 25px 0px;
+        position: absolute;
+        margin-top: 504px;
+        border: none;
+    }
+    
+     #home #botoes #botao{
+        margin-left: 110px;
+    
+     }
+     #home #botoes #botao1 {
+         margin-left: 230px;
+     }
+     #home {
+         align-items: center;
+        
+     }
+     #home #botoes #botao1 button{
+        background-color: honeydew;
+        font-size: 13px;
+        font-family: sans-serif;
+        font-weight: bold;
+        color: rgb(255, 51, 0); 
+     }
+    
+     #home #botoes #botao1 button:hover{
+         background-color: rgb(63, 63, 63);
+         transition-duration: 0.3s;
+     }
+    
+     #home #botoes #botao button{
+        background-color: rgb(63, 63, 63);
+        font-size: 13px;
+        font-family: sans-serif;
+        font-weight: bold;
+        color: rgb(255, 51, 0);
+     }
+    
+     #home #botoes #botao button:hover{
+         background-color: honeydew;
+         transition-duration: 0.3s;
+     }
+    
+    #home #text1{
+        color: honeydew;
+        font-size: 22px;
+        font-family: sans-serif;
+        position: absolute;
+        margin-left: 110px;
+        margin-top: 200px;
+    }
+
+    /*ESTRUTURA*/
+    #estrutura #galpao{
+        height: 930px;
+    }
+    
+
+h3{
+    color: rgb(255, 51, 0);
+    font-size: 45px;
+    font-family: sans-serif;
+    position: absolute;
+    margin-left: 110px;
+    margin-top: 137px;
+}
+
+#estrutura #text2{
+    color: honeydew;
+    font-size: 18px;
+    font-weight: normal;
+    font-family: sans-serif;
+    position: absolute;
+    margin-left: 110px;
+    margin-top: 375px;
+}
+
+#estrutura #text3{
+    color: honeydew;
+    font-size: 18px;
+    font-weight: normal;
+    font-family: sans-serif;
+    position: absolute;
+    margin-left: 110px;
+    margin-top: 591px;
+}
+
+#estrutura #topicos{
+    color: honeydew;
+    font-size: 10px;
+    font-weight: bold;
+    font-family: sans-serif;
+    position: absolute;
+    margin-left: 570px;
+    margin-top: 349px;
+}
+
+#estrutura li{
+    margin-top: 26px;
+    list-style: none;
+    align-items: center;
+}
+
+#estrutura li b{
+    font-style: italic;
+}
+/*Soluções Logisticas*/
+
+h4{
+    color: rgb(255, 51, 0);
+    font-size: 45px;
+    font-family: sans-serif;
+    position: absolute;
+    margin-left: 110px;
+    margin-top: 137px;
+}
+
+#solucoes #transporte #truck{
+    margin-top: 283px;
+    margin-left: 110px;
+    position: absolute;
+    height: 120px;
+    width: 140px;
+}
+
+#solucoes #transporte .text4{
+    font-size: 25px;
+    font-family: sans-serif;
+    position: absolute;
+    margin-top: 444px;
+    margin-left: 110px;
+    color: rgb(63, 63, 63);
+}
+
+#solucoes #transporte .text5{
+    font-size: 15px;
+    font-weight: normal;
+    font-family: sans-serif;
+    position: absolute;
+    margin-top: 561px;
+    margin-left: 110px;
+    color: rgb(63, 63, 63);
+}
+
+#solucoes #transporte button{
+    margin-top: 700px;
+    margin-left: 110px;
+    position: absolute;
+}
+
+#solucoes button{
+    color: honeydew;
+    background-color: rgba(253, 89, 48, 0.863);
+    width: 121px;
+    height: 24px;
+    border-radius: 15px 0px;
+    font-size: 12px;
+    font-weight: bold;
+    border: none;
+}
+
+#solucoes button:hover{
+    background-color: rgb(63, 63, 63);
+    transition-duration: 0.3s;
+}
+
+#solucoes #linha{
+    margin-left: 550px;
+    margin-top: 421px;
+    position: absolute;
+    height: 300px;
+}
+
+#solucoes #armazenagem #carrinho{
+    margin-top: 283px;
+    margin-left: 749px;
+    position: absolute;
+    height: 120px;
+    width: 120px;
+}
+
+#solucoes #armazenagem .text4{
+    font-size: 25px;
+    font-family: sans-serif;
+    position: absolute;
+    margin-top: 444px;
+    margin-left: 749px;
+    color: rgb(63, 63, 63);
+}
+
+#solucoes #armazenagem .text5{
+    font-size: 15px;
+    font-weight: normal;
+    font-family: sans-serif;
+    position: absolute;
+    margin-top: 561px;
+    margin-left: 749px;
+    color: rgb(63, 63, 63);
+}
+
+#solucoes #armazenagem button{
+    margin-top: 700px;
+    margin-left: 749px;
+    position: absolute;
+}
+
+/*NOSSA FROTA*/
+
+h5{
+    color: honeydew;
+    font-size: 45px;
+    font-family: sans-serif;
+    position: absolute;
+    margin-left: 110px;
+    margin-top: 64px;
+}
+#frota img{
+    width: 100%;
+    height: 597px;
+    position: absolute;
+    margin-top: 239px;
+    margin-left: 0px;
+}
+
+#frota #text6{
+    font-size: 15px;
+    font-weight: normal;
+    font-family: sans-serif;
+    position: absolute;
+    margin-top: 186px;
+    margin-left: 110px;
+    color: honeydew;
+}
+/*CONTATO*/
+
+h6{
+    color: rgb(255, 51, 0);
+    font-size: 45px;
+    font-family: sans-serif;
+    position: absolute;
+    margin-left: 110px;
+    margin-top: 86px;
+}
+#contato #faceinsta{
+    margin-top: 262px;
+    position: absolute;
+} 
+
+#contato #faceinsta img{
+    height: 25px;
+    width: 25px;
+}
+
+#contato #faceinsta #face{
+    margin-left: 202px;
+}
+
+#contato #faceinsta #insta{
+    margin-left: 8px;
+}
+  
+#contato #fone, #whats, #loca, p{
+    position: absolute;
+}
+#contato #fone{
+    margin-top: 360px;
+    margin-left: 110px;
+}
+
+#contato #fone{
+    height: 30px;
+    width: 30px;
+}
+
+#contato #fone1{
+    margin-top: 370px;
+    margin-left: 182px;
+    font-size: 12px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: honeydew;
+}
+
+#contato #whats{
+    margin-left: 110px;
+    margin-top: 435px;
+    height: 30px;
+    width: 30px;
+}
+
+#contato #whats1{
+    margin-top: 445px;
+    margin-left: 182px;
+    font-size: 12px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: honeydew;
+}
+#contato #loca{
+    margin-top: 507px;
+    margin-left: 110px;
+}
+    #contato #loca{
+        height: 30px;
+        width: 30px;
+    }
+
+
+#contato #loca1{
+    margin-top: 517px;
+    margin-left: 182px;
+    font-size: 12px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: honeydew;
+}
+
+#contato #formulario{
+    display: block;
+    align-items: center;
+    margin-left: 620px;
+    margin-top: 145px;
+    position: absolute;
+}
+
+#contato .form input{
+    width: 380px;
+    height: 30px;
+    border-radius: 15px 0px;
+    border: none;
+    background-color: honeydew;
+    margin-top: 3px;
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: 12px;
+    padding-left: 9px;
+}
+
+#contato #textarea textarea{
+    width: 373px;
+    height: 200px;
+    border-radius: 15px 0px;
+    border: none;
+    background-color: honeydew;
+    margin-top: 3px;
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    padding: 9px;
+}
+
+#contato #formulario button{
+    border: none;
+    border-radius: 15px 0px;
+    height: 30px;
+    width: 90px;
+    font-size: 15px;
+    font-family: sans-serif;
+    color: honeydew;
+    background-color: rgba(253, 89, 48, 0.863);
+    margin-left: 148px;
+}
+
+#contato #formulario button:hover{
+    background-color: rgb(34, 34, 34);
+    transition-duration: 0.3s;
+}
+/*FOOTER*/
+.footer img{
+    margin-top: 49px;
+    margin-left: 337px;
+    position: absolute;
+    height: 99px;
+    width: 179px;
+}
+
+.footer a{
+    text-decoration: none; 
+    font-size: 9px;
+    font-family: sans-serif;
+    font-weight: bold;  
+    color: honeydew;
+}
+
+.footer #menuf{
+    width: 180px;
+    height: 150px;
+    margin-top: 49px;
+    margin-left: 631px;
+    position: absolute;
+}
+
+  }
